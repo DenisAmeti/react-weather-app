@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+  background color: #000;: #f16051;
+  
+}
+
+.wrapper {
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  padding: 20px;
+  background-color: darkseagreen;
+  display: flex;
+}
+
+
+.main {
+  background-color: #f16051;
+  background: #fff;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 30px;
+  
+}
+
+.title-container {
+  height: 90vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+ 
+}
+
+.title-container__title {
+  font-size: 50px;
+  letter-spacing: 2px;
+  line-height: 8;
+  justify-content: center;
+  text-align: center;
+  
+
+}
+
+.title-container__subtitle {
+  font-style: italic;
+  font-weight: 100;
+  letter-spacing: 3px;
+  line-height: 2.5;
+  font-family: "Merriweather", serif;
+  font-size: 25px;
+}
+
+input[type="text"] {
+  background-color: white;
+  border: 1px;
+  border-bottom: solid 1px #f16051;
+  width: 35%;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  margin-right: 25px;
+  font-size: 20px;
+  
+}
+
+input[type="text"] { 
+  outline: none;
+}
+
+button {
+  border: 0;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #f16051;
+  color: #fff;
+  font-weight: 100;
+}
+
+button:active {
+  outline: none;
+}
+
+.weather__info {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-align: center;
+  color: coral;
+  margin: 5px;
+  padding: 10px
+}
+
+
